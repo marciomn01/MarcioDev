@@ -18,11 +18,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 5%;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.85);
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     position: sticky;
     top: 0;
     z-index: 100;
+    backdrop-filter: blur(8px);
 }
 
 .logo {
@@ -83,6 +84,7 @@ header {
 .hero-wrap {
     display: flex;
     align-items: center;
+    margin-top: 5rem;
     justify-content: space-between;
     gap: 2rem;
     flex-wrap: wrap;
@@ -93,8 +95,8 @@ header {
 }
 
 .hero-photo {
-    flex: 0 0 280px;
-    max-width: 280px;
+    flex: 0 0 580px;
+    max-width: 580px;
 }
 
 .hero-photo img {
@@ -201,6 +203,15 @@ header {
     margin-bottom: 1rem;
 }
 
+.contato-link {
+    display: block;
+    margin-top: 2rem;
+    width: fit-content;
+}
+
+
+
+
 /* Footer */
 footer {
     text-align: center;
@@ -216,8 +227,8 @@ footer {
         position: absolute;
         right: 0;
         height: 92vh;
-        top: 10vh;
-        background-color: #fff;
+        top: 08.4vh;
+        background-color: rgba(255, 255, 255, 0.98);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -226,6 +237,7 @@ footer {
         transition: transform 0.5s ease-in;
         gap: 3rem;
         padding-top: 3rem;
+        backdrop-filter: blur(8px);
     }
 
     .nav-active {
