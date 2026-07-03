@@ -22,4 +22,12 @@ links.forEach(link => {
     });
 });
 
+// Injetar script do LinkedIn
+const linkedInScript = document.createElement('script');
+linkedInScript.src = 'https://platform.linkedin.com/badges/js/profile.js';
+linkedInScript.async = true;
+linkedInScript.defer = true;
+linkedInScript.type = 'text/javascript';
+document.head.appendChild(linkedInScript);
+
 console.log("0");
