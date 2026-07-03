@@ -108,9 +108,9 @@ header {
     display: block;
     object-fit: cover;
     aspect-ratio: 1 / 1;
-    border-radius: 50%;
+    border-radius: 100%;
     border: 2px dashed rgba(106, 48, 147, 0.3);
-    padding: 12px;
+    padding: 4px;
     box-shadow: 0 0 80px rgba(106, 48, 147, 0.12);
 }
 
